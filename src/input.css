@@ -1,0 +1,27 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants; */
+
+#container {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  background: #3333;
+  color: whitesmoke;
+  height: 100dvh;
+}
+
+#controls {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  padding: 16px;
+}
+
+#textEdit {
+  flex: 1;
+  border: 1px solid #d1d5db;
+  padding: 16px;
+}
